@@ -12,10 +12,19 @@ becomes
 Usage
 ----
 
-    var googleajaxurls = require('googleajaxurls'),
+### Hashbang Mode
+
+    var googleajaxurls = require('googleajaxurls')({hashbangMode: true}),
         startUrl = 'http://domain.com/#!one/two/three';
     
     googleajaxurls.toEscapedFragment(startUrl); // 					--> http://domain.com/?_escaped_fragment_=one%2Ftwo%2Fthree
     googleajaxurls.fromEscapedFragment(googleajaxurls.toEscapedFragment(startUrl)); // 	--> http://domain.com/#!one/two/three
    
+### Normal Mode
 
+    var googleajaxurls = require('googleajaxurls')(),
+        startUrl = 'http://domain.com/one/two/three';
+    
+    googleajaxurls.toEscapedFragment(startUrl); //                  --> http://domain.com/one/two/three?_escaped_fragment_=
+    googleajaxurls.fromEscapedFragment(googleajaxurls.toEscapedFragment(startUrl)); //  --> http://domain.com/one/two/three
+   
