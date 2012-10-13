@@ -6,13 +6,16 @@
   "scripts": {
     "test": "node tests/ajaxurlstests.js"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liammclennan/googleajaxurls.git"
+  },
   "keywords": [
     "google",
     "ajax"
   ],
   "author": "Liam McLennan",
-  "license": "BSD",
+  "license": "MIT",
   "dependencies": {
     "underscore": "~1.4.2"
   }
