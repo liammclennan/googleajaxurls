@@ -1,7 +1,7 @@
 Googleajaxurls
 ==============
 
-A helpful library for converting between real urls and the urls required by [Google's Ajax Crawling Specification](https://developers.google.com/webmasters/ajax-crawling/docs/specification).
+Convert to and from the url format required by the [Google's Ajax Crawling Specification](https://developers.google.com/webmasters/ajax-crawling/docs/specification).
 
     http://domain.com/#!key1=value1&key2=value2
 
