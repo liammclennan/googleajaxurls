@@ -4,7 +4,7 @@
   "description": "Library for converting to and from the urls used by Google's ajax crawling specification (https://developers.google.com/webmasters/ajax-crawling/docs/specification)",
   "main": "googleajaxurls.js",
   "scripts": {
-    "test": "todo"
+    "test": "node tests/ajaxurlstests.js"
   },
   "repository": "",
   "keywords": [
