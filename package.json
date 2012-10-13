@@ -1,6 +1,6 @@
 {
   "name": "googleajaxurls",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Library for converting to and from the urls used by Google's ajax crawling specification (https://developers.google.com/webmasters/ajax-crawling/docs/specification)",
   "main": "googleajaxurls.js",
   "scripts": {
