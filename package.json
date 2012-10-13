@@ -14,5 +14,6 @@
   "author": "Liam McLennan",
   "license": "BSD",
   "dependencies": {
+    "underscore": "~1.4.2"
   }
 }
